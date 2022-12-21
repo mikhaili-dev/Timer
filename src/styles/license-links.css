@@ -1,0 +1,23 @@
+.license-block {
+    width: fit-content;
+    position: fixed;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.1em;
+    color: rgb(143, 143, 143);
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.license-block a {
+    color: rgb(192, 192, 192)
+}
+.license-block a:hover {
+    color:rgb(231, 231, 231)
+}
+@media (max-height: 420px) {
+    .license-block {
+        position: absolute;
+    }
+}

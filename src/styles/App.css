@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height: 100vh;
+    user-select: none;
+}
+html, body {
+    min-height: 390px;
+    width: 100%;
+    margin: 0;
+    min-width: 295px;
+}
+body {
+    background: linear-gradient(160deg, #424242,#3d3d3d);
+    background-attachment: fixed;
+    padding-top: 10%;
+    position: relative;
+}

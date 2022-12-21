@@ -1,0 +1,37 @@
+::selection {
+    background-color: rgb(66, 66, 66);
+    color:rgb(158, 158, 158)
+}
+
+.timer-interface {
+    background-color: #222222;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 6px 4px rgb(44, 44, 44);
+}
+.timer-interface.decrement {
+    justify-content: space-between;
+}
+button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+@media (max-width: 500px) {
+    .timer-interface {
+        width: 100%;
+        box-shadow: none;
+    }
+}
+@media (max-width: 360px) {
+    .timer-interface.decrement {
+        display: block;
+    }
+}

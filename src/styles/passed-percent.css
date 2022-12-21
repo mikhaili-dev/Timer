@@ -1,0 +1,39 @@
+.passed-percent {
+    position: absolute;
+    width: 100px;
+    right: 0;
+    left: 0;
+    bottom: 15px;
+    margin: auto;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 136, 136);
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .passed-percent {
+        bottom: unset;
+        top: 5px;
+        width: 80px;
+        font-size: 1.7em;
+        height:55px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .passed-percent > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: rgb(136, 136, 136);
+        width: 70px;
+        height: 40px;
+        border-radius: 15px;
+
+    }
+}

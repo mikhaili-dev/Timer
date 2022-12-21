@@ -1,0 +1,54 @@
+.add-time-container {
+    margin-top: 35px;
+    height: fit-content;
+    margin-right: 5px;
+}
+.add-time-container > div {
+    width: 48px;
+    margin-top: 10px;
+    padding: 6px 4px;
+    text-align: center;
+    background-color: rgb(44 44 44);
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em
+}
+.add-time-container > div:hover {
+    background-color: rgb(54, 54, 54);
+}
+.add-time-container > div:first-of-type {
+    margin-top: 0;
+}
+
+/* при ширине меньшей 1100px предпологаем устройство с touch 
+и настраиваем корректную подсветку для таких устройств */
+
+@media (max-width: 1100px) {
+    .add-time-container > div:hover {
+        background-color: rgb(44 44 44);
+    }
+    .add-time-container > div:active {
+        background-color: rgb(54, 54, 54);
+    }
+}
+@media (max-width: 400px) {
+    .add-time-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        margin: 0;
+
+    }
+    .add-time-container > div {
+        height: 25.5px;
+        margin: 0;
+        line-height: 25.5px;
+        vertical-align: middle;
+    }
+}
