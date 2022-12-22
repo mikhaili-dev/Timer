@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://media.giphy.com/media/VWh6oPgvy6llK6tWLE/giphy.gif" width=70% alt="Гифка с таймером">
 </p>
-<h2 align="center"><a href="http://timer.mikhaili.infinityfreeapp.com">Демо</a></h2>
+<h2 align="center"><a href="http://timer.mikhaili.infinityfreeapp.com" target="_blank" rel="noreferrer">Демо</a></h2>
 
 ## Описание
 Представляю вам простой таймер, написанный на React. Он имеет режим два режима работы: уменьшения и увеличения, а также некоторые особенности.
@@ -62,3 +62,8 @@ npm install
 npm run start
 ```
 
+## Лицензия
+На представленных изображениях и гиф используются 
+<a target="_blank" href="https://icons8.com/icon/18784/time" rel="noreferrer">Time</a> и 
+<a target="_blank" href="https://icons8.com/icon/90922/reboot" rel="noreferrer">Reboot</a> икнонки с сайта 
+<a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
